@@ -1,0 +1,22 @@
+
+# Obsidian — рабочий кэш и локальные настройки
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Плагины — хранилище данных (опционально, можно оставить)
+# .obsidian/plugins/*/data.json
+
+# Большие медиафайлы (если будут)
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.zip
+*.rar
