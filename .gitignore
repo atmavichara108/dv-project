@@ -1,8 +1,9 @@
 
-# Obsidian — рабочий кэш и локальные настройки
+# Obsidian — локальное состояние (у каждого своё)
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache
+.obsidian/workspace-*.json
 .trash/
 
 # Системные файлы
@@ -10,13 +11,13 @@
 Thumbs.db
 desktop.ini
 
-# Плагины — хранилище данных (опционально, можно оставить)
-# .obsidian/plugins/*/data.json
-
-# Большие медиафайлы (если будут)
+# Большие медиафайлы
 *.mp4
 *.mov
 *.wav
 *.mp3
 *.zip
 *.rar
+
+# Конфликтные файлы git
+*.orig
