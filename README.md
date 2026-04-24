@@ -71,11 +71,11 @@ Obsidian → Open folder as vault → выбрать папку dv-project.
 | Параметр | Значение |
 |---|---|
 | Split timers for automatic commit and sync | OFF |
-| Auto commit-and-sync interval (minutes) | 5 |
+| Auto commit-and-sync interval (minutes) | 35 |
 | Auto commit-and-sync after stopping file edits | OFF |
 | Auto commit-and-sync after latest commit | OFF |
 | Auto push interval (minutes) | 0 |
-| Auto pull interval (minutes) | 5 |
+| Auto pull interval (minutes) | 35 |
 | Auto commit-and-sync only staged files | OFF |
 | Specify custom commit message on auto commit-and-sync | OFF |
 | Commit message on auto commit-and-sync | {{hostname}}: {{date}} |
@@ -164,7 +164,7 @@ Obsidian → Open folder as vault → выбрать папку dv-project.
 | Push on commit-and-sync | OFF |
 | Disable on this device | OFF |
 
-Наблюдатель только получает обновления каждые 5 минут и при запуске, но ничего не отправляет.
+Наблюдатель только получает обновления каждые 35 минут и при запуске, но ничего не отправляет.
 
 ### Если наблюдатель случайно что-то отредактировал
 
