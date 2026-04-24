@@ -2,7 +2,7 @@
 
 Рабочее пространство проекта «Дискуссионные Вечера». Здесь ведётся вся проектная документация: структура движения, материалы, исследования, операционка.
 
-Репозиторий используется как совместный Obsidian-волт через плагин **Obsidian Git**.
+Репозиторий используется как совместный Obsidian-волт через плагин Obsidian Git.
 
 ---
 
@@ -10,9 +10,9 @@
 
 ### Что нужно заранее
 
-1. **Git** — установленный на компьютере
-2. **Obsidian** — https://obsidian.md
-3. **Аккаунт GitHub** (для редакторов)
+1. Git — установленный на компьютере
+2. Obsidian — https://obsidian.md
+3. Аккаунт GitHub (для редакторов)
 
 ### Установка Git
 
@@ -35,24 +35,22 @@
 
 ### Шаг 1. Клонирование
 
-Открыть терминал и выполнить:
+Открыть терминал (на Windows — Git Bash) и выполнить:
 
     cd ~/Documents
     git clone https://github.com/atmavichara108/dv-project.git
 
-На Windows — открыть Git Bash (появится после установки Git) и выполнить то же самое.
-
 ### Шаг 2. Открытие в Obsidian
 
-Obsidian → **Open folder as vault** → выбрать папку `dv-project`.
+Obsidian → Open folder as vault → выбрать папку dv-project.
 
-Плагин Obsidian Git уже в репозитории. Зайти в **Settings → Community plugins** и убедиться, что **Obsidian Git** активен (фиолетовый тумблер).
+Плагин Obsidian Git уже в репозитории. Зайти в Settings → Community plugins и убедиться что Obsidian Git активен (фиолетовый тумблер).
 
 ### Шаг 3. Авторизация GitHub (при первом push)
 
 При первом взаимодействии с GitHub система попросит авторизацию.
 
-**Linux:** откроется браузер для OAuth, либо запросит Personal Access Token. Создать токен: github.com → Settings → Developer Settings → Personal access tokens → Tokens (classic). Scope: `repo`. Скопировать токен, использовать как пароль в терминале.
+**Linux:** откроется браузер для OAuth, либо запросит Personal Access Token. Создать токен: github.com → Settings → Developer Settings → Personal access tokens → Tokens (classic). Scope: repo. Скопировать токен, использовать как пароль в терминале.
 
 **macOS:** откроется окно Keychain или OAuth в браузере.
 
@@ -60,62 +58,117 @@ Obsidian → **Open folder as vault** → выбрать папку `dv-project`
 
 ---
 
-## Режим: Редактор (push + pull)
+## Настройка плагина Obsidian Git
 
-Для тех, кто вносит изменения в документацию.
+### Для редакторов (push + pull)
 
-**Требование:** быть добавленным как collaborator в репозиторий. Скинь свой GitHub username Максу — он добавит.
-
-### Настройки плагина
+Требование: быть добавленным как collaborator в репозиторий. Скинь свой GitHub username Максу — он добавит.
 
 Зайти в Settings → Obsidian Git и выставить:
 
-| Параметр | Значение |
-|---|---|
-| Auto backup every X minutes | 5 |
-| Auto pull interval (minutes) | 5 |
-| Pull updates on startup | ON |
-| Pull before push | ON |
-| Sync method | Merge |
-| Disable push | OFF |
-| Commit message | `{{hostname}}: {{date}}` |
-
-Формат `{{hostname}}: {{date}}` — чтобы в истории было видно кто и когда редактировал.
-
-### Рабочий цикл
-
-Всё автоматизировано. Каждые 5 минут плагин подтягивает чужие изменения и отправляет твои.
-
-Ручные команды через палитру (Ctrl+P на Linux/Windows, Cmd+P на Mac):
-
-| Команда | Что делает |
-|---|---|
-| Obsidian Git: Commit all changes | Закоммитить прямо сейчас |
-| Obsidian Git: Push | Отправить прямо сейчас |
-| Obsidian Git: Pull | Получить изменения прямо сейчас |
-
----
-
-## Режим: Наблюдатель (только pull)
-
-Для тех, кто читает документацию без редактирования.
-
-**Не нужно** быть collaborator — репозиторий публичный. Просто клонируй и открой.
-
-### Настройки плагина
-
-Зайти в Settings → Obsidian Git и выставить:
+**Секция Automatic:**
 
 | Параметр | Значение |
 |---|---|
-| Auto backup every X minutes | 0 (выключено) |
+| Split timers for automatic commit and sync | OFF |
+| Auto commit-and-sync interval (minutes) | 5 |
+| Auto commit-and-sync after stopping file edits | OFF |
+| Auto commit-and-sync after latest commit | OFF |
+| Auto push interval (minutes) | 0 |
 | Auto pull interval (minutes) | 5 |
-| Pull updates on startup | ON |
-| Disable push | ON |
+| Auto commit-and-sync only staged files | OFF |
+| Specify custom commit message on auto commit-and-sync | OFF |
+| Commit message on auto commit-and-sync | {{hostname}}: {{date}} |
 
-### Если случайно что-то отредактировал
+**Секция Commit message:**
 
-Не страшно — push отключён, ничего не уйдёт в репозиторий. Но локальные изменения могут мешать при следующем pull. Чтобы сбросить, открой терминал:
+| Параметр | Значение |
+|---|---|
+| Commit message on manual commit | {{hostname}}: {{date}} |
+| {{date}} placeholder format | YYYY-MM-DD HH:mm:ss |
+| {{hostname}} placeholder replacement | твой ник (например: max, dima, anna) |
+| List filenames affected by commit in the commit body | ON |
+
+**Секция Commit-and-sync:**
+
+| Параметр | Значение |
+|---|---|
+| Push on commit-and-sync | ON |
+| Pull on commit-and-sync | ON |
+
+**Секция Pull:**
+
+| Параметр | Значение |
+|---|---|
+| Merge strategy | Merge |
+| Merge strategy on conflicts | None (git default) |
+| Pull on startup | ON |
+
+**Секция Hunk management:**
+
+| Параметр | Значение |
+|---|---|
+| Signs | OFF |
+| Hunk commands | OFF |
+| Status bar with summary of line changes | Disabled |
+
+**Секция Line author information:**
+
+| Параметр | Значение |
+|---|---|
+| Show commit authoring information next to each line | OFF |
+
+**Секция History view:**
+
+| Параметр | Значение |
+|---|---|
+| Show Author | Show |
+| Show Date | ON |
+
+**Секция Source control view:**
+
+| Параметр | Значение |
+|---|---|
+| Automatically refresh source control view on file changes | ON |
+| Source control view refresh interval | 7000 |
+
+**Секция Miscellaneous:**
+
+| Параметр | Значение |
+|---|---|
+| Diff view style | Split |
+| Disable informative notifications | OFF |
+| Disable error notifications | OFF |
+| Hide notifications for no changes | OFF |
+| Show status bar | ON |
+| File menu integration | ON |
+| Show branch status bar | ON |
+| Show the count of modified files in the status bar | OFF |
+
+**Секция Commit author:**
+
+| Параметр | Значение |
+|---|---|
+| Author name for commit | оставить пустым (возьмёт из git config) |
+| Author email for commit | оставить пустым (возьмёт из git config) |
+
+**Секция Advanced:** оставить всё по умолчанию.
+
+### Для наблюдателей (только pull)
+
+Не нужно быть collaborator — репозиторий публичный. Всё то же самое что выше, но с тремя отличиями:
+
+| Параметр | Значение |
+|---|---|
+| Auto commit-and-sync interval (minutes) | 0 (выключено) |
+| Push on commit-and-sync | OFF |
+| Disable on this device | OFF |
+
+Наблюдатель только получает обновления каждые 5 минут и при запуске, но ничего не отправляет.
+
+### Если наблюдатель случайно что-то отредактировал
+
+Не страшно — push отключён, ничего не уйдёт в репозиторий. Но локальные изменения могут мешать при следующем pull. Чтобы сбросить, открыть терминал:
 
     cd ~/Documents/dv-project
     git checkout .
@@ -127,7 +180,7 @@ Obsidian → **Open folder as vault** → выбрать папку `dv-project`
 
 **Один файл — один автор в момент времени.** Перед редактированием крупного файла — написать в чат: «я работаю над таким-то файлом».
 
-**Canvas — только один человек за раз.** Canvas в Obsidian — это JSON-файл. Любое одновременное редактирование даст конфликт, который сложно разрешить.
+**Canvas — только один человек за раз.** Canvas в Obsidian — это JSON-файл. Любое одновременное редактирование даст конфликт который сложно разрешить.
 
 **Частые маленькие правки лучше редких больших.** Для этого и нужен 5-минутный автоинтервал.
 
@@ -135,9 +188,9 @@ Obsidian → **Open folder as vault** → выбрать папку `dv-project`
 
 Конфликт — это когда два человека отредактировали один файл одновременно и Git не смог автоматически объединить изменения. Obsidian Git покажет уведомление.
 
-**Самый простой способ — выбрать одну из версий целиком:**
+**Самый простой способ — выбрать чью-то версию целиком.**
 
-Если хочешь оставить **свою** версию (отбросить чужие изменения в этом файле):
+Чтобы оставить свою версию (отбросить чужие изменения в этом файле), открыть терминал:
 
     cd ~/Documents/dv-project
     git checkout --ours "путь/к/файлу.md"
@@ -145,7 +198,7 @@ Obsidian → **Open folder as vault** → выбрать папку `dv-project`
     git commit -m "resolve conflict: kept my version"
     git push
 
-Если хочешь оставить **чужую** версию (отбросить свои изменения в этом файле):
+Чтобы оставить чужую версию (отбросить свои изменения в этом файле):
 
     cd ~/Documents/dv-project
     git checkout --theirs "путь/к/файлу.md"
@@ -153,7 +206,7 @@ Obsidian → **Open folder as vault** → выбрать папку `dv-project`
     git commit -m "resolve conflict: kept their version"
     git push
 
-**Если нужно объединить вручную** — открой конфликтный файл в любом текстовом редакторе (не в Obsidian). Ты увидишь что-то вроде:
+Если нужно объединить обе версии вручную — открыть конфликтный файл в любом текстовом редакторе (не в Obsidian). Внутри будет что-то такое:
 
     <<<<<<< HEAD
     Здесь твой текст
@@ -161,7 +214,7 @@ Obsidian → **Open folder as vault** → выбрать папку `dv-project`
     Здесь чужой текст
     >>>>>>> main
 
-Оставь нужный текст, удали строки с `<<<<<<<`, `=======` и `>>>>>>>`. Сохрани файл. Потом в терминале:
+Нужно оставить правильный текст и удалить три служебные строки (с угловыми скобками и знаками равенства). После этого сохранить файл и в терминале:
 
     cd ~/Documents/dv-project
     git add .
