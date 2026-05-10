@@ -1,6 +1,61 @@
+
+filters:
+  and:
+    - 'type == "task"'
+    - 'status != "done"'
+    - 'status != "parked"'
+
+formulas:
+  age_days: '(now() - file.ctime) / (1000 * 60 * 60 * 24)'
+  prio_emoji: 'if(priority == "P0", "🔥", if(priority == "P1", "⭐", if(priority == "P2", "•", "·")))'
+
+properties:
+  note.id:
+    displayName: ID
+  note.title:
+    displayName: Задача
+  note.status:
+    displayName: Статус
+  note.priority:
+    displayName: Приоритет
+  note.epic:
+    displayName: Эпик
+  note.effort:
+    displayName: Объём
+  note.sprint:
+    displayName: Спринт
+  formula.age_days:
+    displayName: "Дней в работе"
+
 views:
+  - type: kanban
+    name: "Канбан"
+    groupBy:
+      property: note.status
+      direction: ASC
+    order:
+      - formula.prio_emoji
+      - note.title
+      - note.epic
+      - note.effort
+    
+  - type: table
+    name: "Все задачи"
+    order:
+      - note.id
+      - note.title
+      - note.status
+      - note.priority
+      - note.epic
+      - note.effort
+      - note.sprint
+    
   - type: cards
-    name: доска
-    cardSize: 230
-    image: file.file
-    imageFit: contain
+    name: "По эпикам"
+    groupBy:
+      property: note.epic
+      direction: ASC
+    order:
+      - note.title
+      - note.status
+      - note.priority
