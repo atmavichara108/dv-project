@@ -28,7 +28,7 @@ properties:
     displayName: "Дней в работе"
 
 views:
-  - type: kanban
+  - type: kanban-view
     name: "Канбан"
     groupBy:
       property: note.status
