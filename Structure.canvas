@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"g1","type":"group","x":0,"y":-240,"width":900,"height":440,"color":"1","label":"СЕТЬ ЯЧЕЕК"},
+		{"id":"g2","type":"group","x":0,"y":350,"width":900,"height":350,"color":"2","label":"АНАТОМИЯ ЯЧЕЙКИ"},
+		{"id":"g3","type":"group","x":0,"y":800,"width":900,"height":350,"color":"5","label":"РОЛИ"},
+		{"id":"g4","type":"group","x":0,"y":1250,"width":900,"height":350,"color":"3","label":"S3 ИНТЕГРАЦИЯ"},
+		{"id":"n2a","type":"file","file":"DV/Structure/Cell Anatomy.md","x":20,"y":410,"width":280,"height":50},
+		{"id":"n2b","type":"file","file":"DV/Structure/Lifecycle.md","x":310,"y":410,"width":280,"height":50},
+		{"id":"n2c","type":"file","file":"DV/Structure/Cell Passport — Template.md","x":600,"y":410,"width":280,"height":50},
+		{"id":"n3a","type":"file","file":"DV/Structure/Roles.md","x":20,"y":860,"width":280,"height":50},
+		{"id":"n3b","type":"file","file":"DV/Structure/Roles Matrix — Template.md","x":310,"y":860,"width":280,"height":50},
+		{"id":"n3c","type":"file","file":"DV/Structure/Rotation.md","x":600,"y":860,"width":280,"height":50},
+		{"id":"n4a","type":"file","file":"DV/Structure/S3 Integration.md","x":20,"y":1310,"width":280,"height":50},
+		{"id":"n4b","type":"file","file":"DV/Structure/S3 Glossary.md","x":310,"y":1310,"width":280,"height":50},
+		{"id":"n4c","type":"file","file":"DV/Structure/Onboarding Scenario.md","x":600,"y":1310,"width":280,"height":50},
+		{"id":"n1a","type":"file","file":"DV/Structure/Cells Network.md","x":20,"y":-180,"width":860,"height":100}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"g1","fromSide":"bottom","toNode":"g2","toSide":"top","label":"сеть состоит из ячеек"},
+		{"id":"e2","fromNode":"g2","fromSide":"bottom","toNode":"g3","toSide":"top","label":"ячейка наполнена ролями"},
+		{"id":"e3","fromNode":"g3","fromSide":"bottom","toNode":"g4","toSide":"top","label":"роли реализуют S3 паттерны"}
+	]
+}

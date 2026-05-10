@@ -1,0 +1,6 @@
+views:
+  - type: cards
+    name: доска
+    cardSize: 230
+    image: file.file
+    imageFit: contain
