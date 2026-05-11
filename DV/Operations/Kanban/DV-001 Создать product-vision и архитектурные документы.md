@@ -1,16 +1,19 @@
 ---
 type: task
 id: DV-001
-title: "Создать product-vision и архитектурные документы"
-status: backlog
+title: Создать product-vision и архитектурные документы
+status: ready
 priority: P0
 effort: S
-epic: "Product Vision Docs"
-sprint: 
+epic: Product Vision Docs
+sprint: 2026-W18
 assignee: max
 created: 2026-05-10
-due: 
-tags: [docs, opencode, foundation]
+due:
+tags:
+  - docs
+  - opencode
+  - foundation
 ---
 
 ## Цель

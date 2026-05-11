@@ -41,6 +41,8 @@ views:
         - DV/Operations/Kanban/DV-003 Настроить opencode.json.md
       note.status:
         - backlog
+        - ready
+        - doing
     cardOrders:
       file.file:
         DV/Operations/Kanban/DV-002 Подключить dv-project как git submodule.md: []

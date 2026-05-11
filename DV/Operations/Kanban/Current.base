@@ -1,14 +1,34 @@
-
 filters:
   and:
-    - 'type == "task"'
-    - 'sprint == "2026-W19"'
-
+    - type == "task"
+    - sprint != ""
+    - sprint != null
 views:
-  - type: kanban
-    name: "Спринт"
-    groupBy:
-      property: note.status
+  - type: kanban-view
+    name: Спринт
     order:
-      - note.priority
-      - note.title
+      - priority
+      - title
+    columnOrders:
+      file.file:
+        - DV/Operations/Kanban/DV-001 Создать product-vision и архитектурные документы.md
+        - DV/Operations/Kanban/DV-002 Подключить dv-project как git submodule.md
+      note.status:
+        - backlog
+        - ready
+        - doing
+    cardOrders:
+      file.file: {}
+      note.status: {}
+    columnColors:
+      file.file: {}
+      note.status: {}
+    groupByProperty: note.status
+  - type: table
+    name: Список
+    order:
+      - id
+      - title
+      - status
+      - priority
+      - sprint

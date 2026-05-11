@@ -2,11 +2,11 @@
 type: task
 id: DV-002
 title: Подключить dv-project как git submodule
-status: backlog
+status: doing
 priority: P0
 effort: XS
 epic: Product Vision Docs
-sprint:
+sprint: 2026-W18
 assignee: max
 created: 2026-05-10
 due:

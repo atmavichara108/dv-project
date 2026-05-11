@@ -1,5 +1,20 @@
 
-status: backlog | next | doing | review | done | parked
+status: 
+* backlog — всё, что когда‑нибудь сделаем. Не разобрано, не приоритезировано детально.
+* ready — взято в текущий блок («спринт» в твоей терминологии). Понятно что делать, готово к старту. Сюда руками переносишь 5–10 задач, когда хочется освежить фокус.
+* doing — в работе прямо сейчас. WIP‑лимит 2–3 задачи (иначе расфокус).
+* done — закрыто.
+ Parked заменяется тегом `#frozen` или отдельным полем `frozen: true` с фильтром — так замороженные не засоряют канбан, но и не теряются.
+ 
 priority: P0 | P1 | P2 | P3
 effort: XS | S | M | L | XL
-epic: Product Vision Docs | Self-hosted Infra | Conferencing | Site UX MVP | Roles & Auth | Research Workflow | Phase 2
+epic: 
+* Self-hosted Infra — переезд с Cloudflare
+* Conferencing & Transcription — MiroTalk + Meetily
+* Product Vision Docs — настройка opencode и ADR
+* Site UX MVP — рефакторинг главной под сценарии
+* Roles & Auth — упрощение ролевой модели
+* Research Workflow — поддержка воркфлоу исследований в UI
+* Phase 2 — то, что отложено
+
+в индустрии называется continuous flow / Kanban‑режим (в отличие от Scrum со спринтами по графику). А «текущий блок задач без дат» — это WIP‑limit‑подход: ты не планируешь время, ты ограничиваешь количество одновременно живых задач.
