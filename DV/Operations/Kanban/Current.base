@@ -1,0 +1,14 @@
+
+filters:
+  and:
+    - 'type == "task"'
+    - 'sprint == "2026-W19"'
+
+views:
+  - type: kanban
+    name: "Спринт"
+    groupBy:
+      property: note.status
+    order:
+      - note.priority
+      - note.title

@@ -1,0 +1,13 @@
+filters:
+  and:
+    - type == "task"
+views:
+  - type: cards
+    name: По эпикам
+    groupBy:
+      property: epic
+      direction: ASC
+    order:
+      - priority
+      - status
+      - title

@@ -1,14 +1,11 @@
-
 filters:
   and:
-    - 'type == "task"'
-    - 'status != "done"'
-    - 'status != "parked"'
-
+    - type == "task"
+    - status != "done"
+    - status != "parked"
 formulas:
-  age_days: '(now() - file.ctime) / (1000 * 60 * 60 * 24)'
-  prio_emoji: 'if(priority == "P0", "🔥", if(priority == "P1", "⭐", if(priority == "P2", "•", "·")))'
-
+  age_days: (now() - file.ctime) / (1000 * 60 * 60 * 24)
+  prio_emoji: if(priority == "P0", "🔥", if(priority == "P1", "⭐", if(priority == "P2", "•", "·")))
 properties:
   note.id:
     displayName: ID
@@ -25,37 +22,53 @@ properties:
   note.sprint:
     displayName: Спринт
   formula.age_days:
-    displayName: "Дней в работе"
-
+    displayName: Дней в работе
 views:
   - type: kanban-view
-    name: "Канбан"
+    name: Канбан
     groupBy:
-      property: note.status
+      property: status
       direction: ASC
     order:
       - formula.prio_emoji
-      - note.title
-      - note.epic
-      - note.effort
-    
+      - title
+      - epic
+      - effort
+    columnOrders:
+      file.file:
+        - DV/Operations/Kanban/DV-001 Создать product-vision и архитектурные документы.md
+        - DV/Operations/Kanban/DV-002 Подключить dv-project как git submodule.md
+        - DV/Operations/Kanban/DV-003 Настроить opencode.json.md
+      note.status:
+        - backlog
+    cardOrders:
+      file.file:
+        DV/Operations/Kanban/DV-002 Подключить dv-project как git submodule.md: []
+        DV/Operations/Kanban/DV-003 Настроить opencode.json.md:
+          - DV/Operations/Kanban/DV-002 Подключить dv-project как git submodule.md
+          - DV/Operations/Kanban/DV-003 Настроить opencode.json.md
+      note.status: {}
+    columnColors:
+      file.file:
+        DV/Operations/Kanban/DV-001 Создать product-vision и архитектурные документы.md: purple
+      note.status: {}
+    groupByProperty: note.status
   - type: table
-    name: "Все задачи"
+    name: Все задачи
     order:
-      - note.id
-      - note.title
-      - note.status
-      - note.priority
-      - note.epic
-      - note.effort
-      - note.sprint
-    
+      - id
+      - title
+      - status
+      - priority
+      - epic
+      - effort
+      - sprint
   - type: cards
-    name: "По эпикам"
+    name: По эпикам
     groupBy:
-      property: note.epic
+      property: epic
       direction: ASC
     order:
-      - note.title
-      - note.status
-      - note.priority
+      - title
+      - status
+      - priority
