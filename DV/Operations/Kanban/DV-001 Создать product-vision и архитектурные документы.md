@@ -6,7 +6,7 @@ status: ready
 priority: P0
 effort: S
 epic: Product Vision Docs
-sprint: 2026-W18
+sprint:
 assignee: max
 created: 2026-05-10
 due:

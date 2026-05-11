@@ -2,7 +2,7 @@ filters:
   and:
     - type == "task"
     - status != "done"
-    - status != "parked"
+    - status != "frozen"
 formulas:
   age_days: (now() - file.ctime) / (1000 * 60 * 60 * 24)
   prio_emoji: if(priority == "P0", "🔥", if(priority == "P1", "⭐", if(priority == "P2", "•", "·")))
@@ -49,7 +49,13 @@ views:
         DV/Operations/Kanban/DV-003 Настроить opencode.json.md:
           - DV/Operations/Kanban/DV-002 Подключить dv-project как git submodule.md
           - DV/Operations/Kanban/DV-003 Настроить opencode.json.md
-      note.status: {}
+      note.status:
+        ready:
+          - DV/Operations/Kanban/DV-001 Создать product-vision и архитектурные документы.md
+          - DV/Operations/Kanban/DV-002 Подключить dv-project как git submodule.md
+        backlog:
+          - DV/Operations/Kanban/DV-003 Настроить opencode.json.md
+        doing: []
     columnColors:
       file.file:
         DV/Operations/Kanban/DV-001 Создать product-vision и архитектурные документы.md: purple
@@ -74,3 +80,8 @@ views:
       - title
       - status
       - priority
+  - type: cards
+    name: Done
+    filters:
+      and:
+        - status == "done"

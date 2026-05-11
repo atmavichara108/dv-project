@@ -1,8 +1,7 @@
 filters:
   and:
     - type == "task"
-    - sprint != ""
-    - sprint != null
+    - status == "ready" || status == "doing"
 views:
   - type: kanban-view
     name: Спринт
@@ -14,7 +13,6 @@ views:
         - DV/Operations/Kanban/DV-001 Создать product-vision и архитектурные документы.md
         - DV/Operations/Kanban/DV-002 Подключить dv-project как git submodule.md
       note.status:
-        - backlog
         - ready
         - doing
     cardOrders:
@@ -22,7 +20,9 @@ views:
       note.status: {}
     columnColors:
       file.file: {}
-      note.status: {}
+      note.status:
+        ready: orange
+        doing: blue
     groupByProperty: note.status
   - type: table
     name: Список
