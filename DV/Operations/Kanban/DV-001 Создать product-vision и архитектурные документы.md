@@ -2,13 +2,13 @@
 type: task
 id: DV-001
 title: Создать product-vision и архитектурные документы
-status: doing
+status: done
 priority: P0
 effort: S
 epic: Product Vision Docs
 assignee: max
 created: 2026-05-10
-due:
+due: 2026-05-12
 tags:
   - docs
   - opencode

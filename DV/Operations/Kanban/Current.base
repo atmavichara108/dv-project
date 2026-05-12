@@ -1,7 +1,7 @@
 filters:
   and:
     - type == "task"
-    - status == "ready" || status == "doing"
+    - status == "ready" || status == "doing" || status == "done"
 views:
   - type: kanban-view
     name: Спринт
@@ -13,9 +13,9 @@ views:
         - DV/Operations/Kanban/DV-001 Создать product-vision и архитектурные документы.md
         - DV/Operations/Kanban/DV-002 Подключить dv-project как git submodule.md
       note.status:
+        - done
         - ready
         - doing
-        - done
     cardOrders:
       file.file: {}
       note.status: {}
