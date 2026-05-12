@@ -52,9 +52,9 @@ views:
       note.status:
         ready:
           - DV/Operations/Kanban/DV-005 Купить домен re-search.wiki.md
-        backlog:
           - DV/Operations/Kanban/DV-006 Купить VPS на Zomro (Standard Intel, Poland).md
           - DV/Operations/Kanban/DV-006a Базовая настройка сервера (hardening + пакеты).md
+        backlog:
           - DV/Operations/Kanban/DV-007 Мигрировать БД с D1.md
           - DV/Operations/Kanban/DV-008 Деплой dv-hub на VPS (Node adapter + PM2).md
           - DV/Operations/Kanban/DV-009 Бэкапы БД.md
