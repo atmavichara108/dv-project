@@ -15,6 +15,7 @@ views:
       note.status:
         - ready
         - doing
+        - done
     cardOrders:
       file.file: {}
       note.status: {}
@@ -23,6 +24,7 @@ views:
       note.status:
         ready: orange
         doing: blue
+        done: green
     groupByProperty: note.status
   - type: table
     name: Список
@@ -31,4 +33,4 @@ views:
       - title
       - status
       - priority
-      - sprint
+      - due
