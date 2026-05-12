@@ -2,7 +2,7 @@
 type: task
 id: DV-004
 title: Создать промпты агентов opencode (plan, build, reviewer, researcher)
-status: ready
+status: doing
 priority: P0
 effort: S
 epic: Product Vision Docs

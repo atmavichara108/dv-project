@@ -1,14 +1,17 @@
 ---
 type: task
 id: DV-006
-title: "Купить VPS на Zomro (Standard Intel, Poland)"
-status: backlog
+title: Купить VPS на Zomro (Standard Intel, Poland)
+status: ready
 priority: P0
 effort: XS
-epic: "Self-hosted Infra"
+epic: Self-hosted Infra
 assignee: max
 created: 2026-05-11
-tags: [infra, vps, p0]
+tags:
+  - infra
+  - vps
+  - p0
 ---
 
 ## Goal

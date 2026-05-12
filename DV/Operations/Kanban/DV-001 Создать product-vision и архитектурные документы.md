@@ -2,11 +2,10 @@
 type: task
 id: DV-001
 title: Создать product-vision и архитектурные документы
-status: ready
+status: doing
 priority: P0
 effort: S
 epic: Product Vision Docs
-sprint:
 assignee: max
 created: 2026-05-10
 due:

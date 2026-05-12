@@ -2,13 +2,16 @@
 type: task
 id: DV-006a
 title: "Базовая настройка сервера: SSH ключи, ufw, пакеты"
-status: backlog
+status: ready
 priority: P0
 effort: S
-epic: "Self-hosted Infra"
+epic: Self-hosted Infra
 assignee: max
 created: 2026-05-11
-tags: [infra, security, p0]
+tags:
+  - infra
+  - security
+  - p0
 ---
 
 ## Goal

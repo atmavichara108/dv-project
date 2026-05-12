@@ -1,14 +1,17 @@
 ---
 type: task
 id: DV-005
-title: "Купить домен re-search.wiki"
-status: backlog
+title: Купить домен re-search.wiki
+status: ready
 priority: P0
 effort: XS
-epic: "Self-hosted Infra"
+epic: Self-hosted Infra
 assignee: max
 created: 2026-05-11
-tags: [infra, domain, p0]
+tags:
+  - infra
+  - domain
+  - p0
 ---
 
 ## Goal
