@@ -116,3 +116,6 @@ views:
     filters:
       and:
         - status == "done"
+    image: note.title
+    imageAspectRatio: 0.6
+    imageFit: contain
