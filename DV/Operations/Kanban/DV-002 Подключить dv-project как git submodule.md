@@ -2,7 +2,7 @@
 type: task
 id: DV-002
 title: Подключить dv-project как git submodule
-status: doing
+status: done
 priority: P0
 effort: XS
 epic: Product Vision Docs

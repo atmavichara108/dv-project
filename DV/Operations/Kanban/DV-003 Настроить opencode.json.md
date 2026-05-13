@@ -2,7 +2,7 @@
 type: task
 id: DV-003
 title: Настроить opencode.json
-status: doing
+status: done
 priority: P0
 effort: S
 epic: Product Vision Docs

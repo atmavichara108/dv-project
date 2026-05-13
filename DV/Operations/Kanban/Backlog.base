@@ -77,11 +77,17 @@ views:
           - DV/Operations/Kanban/DV-026 Resend верификация домена для magic-link.md
           - DV/Operations/Kanban/DV-027 Nginx + Let's Encrypt для всех трёх доменов.md
           - DV/Operations/Kanban/DV-029 Infra Runbook.md
-        doing: []
+        doing:
+          - DV/Operations/Kanban/DV-004 Создать промпты агентов opencode.md
+        done:
+          - DV/Operations/Kanban/DV-001 Создать product-vision и архитектурные документы.md
+          - DV/Operations/Kanban/DV-002 Подключить dv-project как git submodule.md
+          - DV/Operations/Kanban/DV-003 Настроить opencode.json.md
     columnColors:
       file.file:
         DV/Operations/Kanban/DV-001 Создать product-vision и архитектурные документы.md: purple
-      note.status: {}
+      note.status:
+        backlog: red
     groupByProperty: note.status
   - type: table
     name: Все задачи
