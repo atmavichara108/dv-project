@@ -1,0 +1,10 @@
+{
+  "templater-obsidian:Templates/done.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ]
+}
