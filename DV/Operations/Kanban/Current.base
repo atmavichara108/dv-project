@@ -1,7 +1,7 @@
 filters:
   and:
     - type == "task"
-    - status == "ready" || status == "doing" || status == "done"
+    - status == "ready" || status == "doing"
 views:
   - type: kanban-view
     name: Спринт

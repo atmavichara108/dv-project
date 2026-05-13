@@ -1,7 +1,6 @@
 filters:
   and:
     - type == "task"
-    - status != "done"
     - status != "frozen"
 formulas:
   age_days: (now() - file.ctime) / (1000 * 60 * 60 * 24)
@@ -43,6 +42,7 @@ views:
         - backlog
         - ready
         - doing
+        - done
     cardOrders:
       file.file:
         DV/Operations/Kanban/DV-002 Подключить dv-project как git submodule.md: []
