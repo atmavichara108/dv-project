@@ -88,6 +88,9 @@ views:
         DV/Operations/Kanban/DV-001 Создать product-vision и архитектурные документы.md: purple
       note.status:
         backlog: red
+        ready: purple
+        doing: blue
+        done: green
     groupByProperty: note.status
   - type: table
     name: Все задачи

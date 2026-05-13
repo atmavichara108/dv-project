@@ -9,12 +9,13 @@ epic: Product Vision Docs
 sprint:
 assignee: max
 created: 2026-05-10
-due:
+due: 2026-05-13
 tags:
   - opencode
   - config
 file: DV/Operations/Kanban/DV-002 Подключить dv-project как git submodule.md
 ---
+
 
 ## Цель
 Подключить продуктовый контекст из docs/ и context/ как instructions для всех агентов opencode. Прописать базовые permissions.

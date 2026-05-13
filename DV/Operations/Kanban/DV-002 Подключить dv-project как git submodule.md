@@ -9,7 +9,7 @@ epic: Product Vision Docs
 sprint:
 assignee: max
 created: 2026-05-10
-due:
+due: 2026-05-13
 tags:
   - git
   - opencode
