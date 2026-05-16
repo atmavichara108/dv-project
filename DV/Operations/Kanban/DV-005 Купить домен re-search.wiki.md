@@ -2,7 +2,7 @@
 type: task
 id: DV-005
 title: Купить домен re-search.wiki
-status: ready
+status: done
 priority: P0
 effort: XS
 epic: Self-hosted Infra
@@ -12,7 +12,9 @@ tags:
   - infra
   - domain
   - p0
+due: 2026-05-16
 ---
+
 
 ## Goal
 Зарегистрировать `re-search.wiki` на Namecheap, оплата USDT TRC-20 через TRONlink → BitPay.
