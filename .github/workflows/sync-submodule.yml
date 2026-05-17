@@ -1,0 +1,33 @@
+name: Sync Submodule to dv-hub
+on:
+  push:
+    branches: [main]
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout dv-project
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Checkout dv-hub
+        uses: actions/checkout@v4
+        with:
+          repository: atmavichara108/dv-hub
+          path: dv-hub
+          token: ${{ secrets.HUB_PAT }}
+      - name: Update submodule
+        run: |
+          cd dv-hub
+          git submodule update --remote
+          cd ..
+          git -C dv-hub config user.email "actions@github.com"
+          git -C dv-hub config user.name "GitHub Actions"
+      - name: Commit and push
+        run: |
+          cd dv-hub
+          git add context
+          git diff --cached --quiet || git commit -m "chore: sync context from dv-project"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.HUB_PAT }}
