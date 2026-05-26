@@ -52,8 +52,8 @@ views:
       note.status:
         ready:
           - DV/Operations/Kanban/DV-007 Мигрировать БД с D1.md
-        backlog:
           - DV/Operations/Kanban/DV-008 Деплой dv-hub на VPS (Node adapter + PM2).md
+        backlog:
           - DV/Operations/Kanban/DV-009 Бэкапы БД.md
           - DV/Operations/Kanban/DV-010 DNS-записи для re-search.wiki.md
           - DV/Operations/Kanban/DV-011 Развернуть MiroTalk SFU.md
