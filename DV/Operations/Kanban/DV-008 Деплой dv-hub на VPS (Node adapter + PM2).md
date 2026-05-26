@@ -2,14 +2,19 @@
 type: task
 id: DV-008
 title: "Деплой dv-hub: Hono Node adapter + PM2"
-status: backlog
+status: ready
 priority: P0
 effort: M
-epic: "Self-hosted Infra"
+epic: Self-hosted Infra
 assignee: max
 created: 2026-05-11
-tags: [infra, deploy, p0]
-depends_on: [DV-006a, DV-007]
+tags:
+  - infra
+  - deploy
+  - p0
+depends_on:
+  - DV-006a
+  - DV-007
 ---
 
 ## Goal

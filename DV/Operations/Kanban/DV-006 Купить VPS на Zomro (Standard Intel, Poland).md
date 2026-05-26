@@ -2,7 +2,7 @@
 type: task
 id: DV-006
 title: Купить VPS на Zomro (Standard Intel, Poland)
-status: ready
+status: doing
 priority: P0
 effort: XS
 epic: Self-hosted Infra

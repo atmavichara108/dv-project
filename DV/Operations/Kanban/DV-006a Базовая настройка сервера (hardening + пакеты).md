@@ -2,7 +2,7 @@
 type: task
 id: DV-006a
 title: "Базовая настройка сервера: SSH ключи, ufw, пакеты"
-status: ready
+status: doing
 priority: P0
 effort: S
 epic: Self-hosted Infra
