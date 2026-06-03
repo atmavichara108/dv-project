@@ -1,7 +1,7 @@
 ---
 type: task
 id: DV-006
-title: Купить VPS на Zomro (Standard Intel, Poland)
+title: Купить VPS на Fornex (Germany)
 status: doing
 priority: P0
 effort: XS
@@ -15,7 +15,7 @@ tags:
 ---
 
 ## Goal
-2 vCPU / 5 GB RAM / 35 GB NVMe, Ubuntu 22.04, регион Poland. Оплата через Coinify USDT TRC-20.
+2 vCPU / 5 GB RAM / 35 GB NVMe, Ubuntu 24.04, регион Germany (ru.fornex.com).
 
 ## Definition of Done
 - Сначала активирован 3-day trial для проверки

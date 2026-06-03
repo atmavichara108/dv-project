@@ -20,7 +20,7 @@ views:
       note.status:
         ready: []
         doing:
-          - DV/Operations/Kanban/DV-006 Купить VPS на Zomro (Standard Intel, Poland).md
+          - DV/Operations/Kanban/DV-006 Купить VPS на Fornex (Germany).md
           - DV/Operations/Kanban/DV-006a Базовая настройка сервера (hardening + пакеты).md
     columnColors:
       file.file: {}

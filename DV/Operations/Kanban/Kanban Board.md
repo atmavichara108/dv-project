@@ -15,7 +15,7 @@ date: 2026-05-16
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |-----|--------|-----------|------|-------|
-| DV-006 | [[DV-006 Купить VPS на Zomro (Standard Intel, Poland)|Купить VPS на Zomro (Standard Intel, Poland)]] | 🔥 | Self-hosted Infra | XS |
+| DV-006 | [[DV-006 Купить VPS на Fornex (Germany)|Купить VPS на Fornex (Germany)]] | 🔥 | Self-hosted Infra | XS |
 | DV-006a | [[DV-006a Базовая настройка сервера (hardening + пакеты)|"Базовая настройка сервера: SSH ключи, ufw, пакеты"]] | 🔥 | Self-hosted Infra | S |
 
 ## ⚪ Backlog (22)
