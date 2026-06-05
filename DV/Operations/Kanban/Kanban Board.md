@@ -1,29 +1,29 @@
 ---
 title: Kanban Board
-date: 2026-05-16
+date: 2026-06-05
 ---
 
 # Kanban Board
 
-> Последнее обновление: 2026-05-16 21:32
+> Последнее обновление: 2026-06-05 12:17
 
-## 🔵 Doing (0)
+## 🔵 Doing (1)
 
-*Пусто*
+| ID | Задача | Приоритет | Эпик | Объём |
+|-----|--------|-----------|------|-------|
+| DV-006a | [[DV-006a Базовая настройка сервера (hardening + пакеты)|"Базовая настройка сервера: SSH ключи, ufw, пакеты"]] | 🔥 | Self-hosted Infra | S |
 
 ## 🟠 Ready (2)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |-----|--------|-----------|------|-------|
-| DV-006 | [[DV-006 Купить VPS на Fornex (Germany)|Купить VPS на Fornex (Germany)]] | 🔥 | Self-hosted Infra | XS |
-| DV-006a | [[DV-006a Базовая настройка сервера (hardening + пакеты)|"Базовая настройка сервера: SSH ключи, ufw, пакеты"]] | 🔥 | Self-hosted Infra | S |
+| DV-007 | [[DV-007 Мигрировать БД с D1|"Мигрировать БД: Cloudflare D1 → SQLite-файл или Postgres"]] | 🔥 | Self-hosted Infra | L |
+| DV-008 | [[DV-008 Деплой dv-hub на VPS (Node adapter + PM2)|"Деплой dv-hub: Hono Node adapter + PM2"]] | 🔥 | Self-hosted Infra | M |
 
-## ⚪ Backlog (22)
+## ⚪ Backlog (20)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |-----|--------|-----------|------|-------|
-| DV-007 | [[DV-007 Мигрировать БД с D1|"Мигрировать БД: Cloudflare D1 → SQLite-файл или Postgres"]] | 🔥 | "Self-hosted Infra" | L |
-| DV-008 | [[DV-008 Деплой dv-hub на VPS (Node adapter + PM2)|"Деплой dv-hub: Hono Node adapter + PM2"]] | 🔥 | "Self-hosted Infra" | M |
 | DV-009 | [[DV-009 Бэкапы БД|"Настроить ежедневные бэкапы БД с offsite-копией"]] | ⭐ | "Self-hosted Infra" | S |
 | DV-010 | [[DV-010 DNS-записи для re-search.wiki|"DNS A-записи: @, www, meet → IP сервера"]] | 🔥 | "Self-hosted Infra" | XS |
 | DV-011 | [[DV-011 Развернуть MiroTalk SFU|"Развернуть MiroTalk SFU на meet.re-search.wiki"]] | 🔥 | "Calls & Transcription" | M |
@@ -45,7 +45,7 @@ date: 2026-05-16
 | DV-027 | [[DV-027 Nginx + Let's Encrypt для всех трёх доменов|Nginx reverse proxy + SSL для re-search.wiki, www, meet]] | 🔥 | Self-hosted Infra | S |
 | DV-029 | [[DV-029 Infra Runbook|"Создать docs/infra-runbook.md — операционный мануал по инфре"]] | ⭐ | "Self-hosted Infra" | S |
 
-## 🟢 Done (5)
+## 🟢 Done (6)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |-----|--------|-----------|------|-------|
@@ -54,3 +54,4 @@ date: 2026-05-16
 | DV-003 | [[DV/Operations/Kanban/DV-002 Подключить dv-project как git submodule|Настроить opencode.json]] | 🔥 | Product Vision Docs | S |
 | DV-004 | [[DV-004 Создать промпты агентов opencode|Создать промпты агентов opencode (plan, build, reviewer, researcher)]] | 🔥 | Product Vision Docs | S |
 | DV-005 | [[DV-005 Купить домен re-search.wiki|Купить домен re-search.wiki]] | 🔥 | Self-hosted Infra | XS |
+| DV-006 | [[DV-006 Купить VPS на Fornex (Germany)|Купить VPS на Fornex (Germany)]] | 🔥 | Self-hosted Infra | XS |
