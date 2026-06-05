@@ -1,16 +1,19 @@
 ---
 type: task
 id: DV-012
-title: "Настроить coturn (TURN/STUN сервер)"
-status: backlog
+title: Настроить coturn (TURN/STUN сервер)
+status: ready
 priority: P1
 effort: M
-epic: "Conferencing"
-sprint: 
+epic: Conferencing
+sprint:
 assignee: max
 created: 2026-05-10
-due: 
-tags: [video, webrtc, coturn]
+due:
+tags:
+  - video
+  - webrtc
+  - coturn
 ---
 
 ## Цель

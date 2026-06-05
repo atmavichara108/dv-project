@@ -2,14 +2,19 @@
 type: task
 id: DV-010
 title: "DNS A-записи: @, www, meet → IP сервера"
-status: backlog
+status: doing
 priority: P0
 effort: XS
-epic: "Self-hosted Infra"
+epic: Self-hosted Infra
 assignee: max
 created: 2026-05-11
-tags: [infra, dns, p0]
-depends_on: [DV-005, DV-006]
+tags:
+  - infra
+  - dns
+  - p0
+depends_on:
+  - DV-005
+  - DV-006
 ---
 
 ## Goal

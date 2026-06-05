@@ -1,16 +1,18 @@
 ---
 type: task
 id: DV-013
-title: "Заменить Jitsi на MiroTalk в UI комнат сайта"
-status: backlog
+title: Заменить Jitsi на MiroTalk в UI комнат сайта
+status: ready
 priority: P1
 effort: S
-epic: "Conferencing"
-sprint: 
+epic: Conferencing
+sprint:
 assignee: max
 created: 2026-05-10
-due: 
-tags: [frontend, integration]
+due:
+tags:
+  - frontend
+  - integration
 ---
 
 ## Цель

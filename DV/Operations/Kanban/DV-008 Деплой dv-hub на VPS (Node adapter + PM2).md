@@ -2,7 +2,7 @@
 type: task
 id: DV-008
 title: "Деплой dv-hub: Hono Node adapter + PM2"
-status: ready
+status: doing
 priority: P0
 effort: M
 epic: Self-hosted Infra
