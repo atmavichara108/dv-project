@@ -2,7 +2,7 @@
 type: task
 id: DV-010
 title: "DNS A-записи: @, www, meet → IP сервера"
-status: doing
+status: done
 priority: P0
 effort: XS
 epic: Self-hosted Infra

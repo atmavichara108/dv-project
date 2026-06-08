@@ -2,7 +2,7 @@
 type: task
 id: DV-027
 title: Nginx reverse proxy + SSL для re-search.wiki, www, meet
-status: backlog
+status: done
 priority: P0
 effort: S
 epic: Self-hosted Infra
@@ -16,6 +16,7 @@ depends_on:
   - DV-008
   - DV-011
   - DV-010
+due: 2026-06-08
 ---
 
 ## Goal
@@ -32,3 +33,4 @@ depends_on:
 ## Notes
 - HTTP/2 включён
 - Проверить `ssl_protocols TLSv1.2 TLSv1.3`
+

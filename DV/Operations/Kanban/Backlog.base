@@ -52,7 +52,6 @@ views:
       note.status:
         ready:
           - DV/Operations/Kanban/DV-009 Бэкапы БД.md
-          - DV/Operations/Kanban/DV-010 DNS-записи для re-search.wiki.md
           - DV/Operations/Kanban/DV-011 Развернуть MiroTalk SFU.md
           - DV/Operations/Kanban/DV-013 Заменить Jitsi на MiroTalk в UI комнат.md
           - DV/Operations/Kanban/DV-012 Настроить coturn (TURN STUN).md
@@ -76,9 +75,14 @@ views:
           - DV/Operations/Kanban/DV-008 Деплой dv-hub на VPS (Node adapter + PM2).md
           - DV/Operations/Kanban/DV-007 Мигрировать БД с D1.md
         done:
+          - DV/Operations/Kanban/DV-010 DNS-записи для re-search.wiki.md
           - DV/Operations/Kanban/DV-001 Создать product-vision и архитектурные документы.md
           - DV/Operations/Kanban/DV-002 Подключить dv-project как git submodule.md
           - DV/Operations/Kanban/DV-003 Настроить opencode.json.md
+          - DV/Operations/Kanban/DV-004 Создать промпты агентов opencode.md
+          - DV/Operations/Kanban/DV-005 Купить домен re-search.wiki.md
+          - DV/Operations/Kanban/DV-006 Купить VPS на Fornex (Germany).md
+          - DV/Operations/Kanban/DV-006a Базовая настройка сервера (hardening + пакеты).md
     columnColors:
       file.file:
         DV/Operations/Kanban/DV-001 Создать product-vision и архитектурные документы.md: purple
