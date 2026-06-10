@@ -1,30 +1,31 @@
 ---
 title: Kanban Board
-date: 2026-06-08
+date: 2026-06-10
 ---
 
 # Kanban Board
 
-> Последнее обновление: 2026-06-10 00:00
+> Последнее обновление: 2026-06-10 14:37
 
-## 🔵 Doing (0)
+## 🔵 Doing (4)
 
-*Пусто*
+| ID | Задача | Приоритет | Эпик | Объём |
+|-----|--------|-----------|------|-------|
+| DV-007 | [[DV-007 Мигрировать БД с D1|"Мигрировать БД: Cloudflare D1 → SQLite-файл или Postgres"]] | 🔥 | Self-hosted Infra | L |
+| DV-009 | [[DV-009 Бэкапы БД|Настроить ежедневные бэкапы БД с offsite-копией]] | ⭐ | Self-hosted Infra | S |
+| DV-011 | [[DV-011 Развернуть MiroTalk SFU|Развернуть MiroTalk SFU на meet.re-search.wiki]] | 🔥 | Calls & Transcription | M |
+| DV-013 | [[DV-013 Заменить Jitsi на MiroTalk в UI комнат|Заменить Jitsi на MiroTalk в UI комнат сайта]] | ⭐ | Conferencing | S |
 
 ## 🟠 Ready (1)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |-----|--------|-----------|------|-------|
-| DV-007 | [[DV-007 Мигрировать БД с D1|"Мигрировать БД: Cloudflare D1 → SQLite-файл или Postgres"]] | 🔥 | Self-hosted Infra | L |
+| DV-012 | [[DV-012 Настроить coturn (TURN STUN)|Настроить coturn (TURN/STUN сервер)]] | ⭐ | Conferencing | M |
 
-## ⚪ Backlog (18)
+## ⚪ Backlog (14)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |-----|--------|-----------|------|-------|
-| DV-009 | [[DV-009 Бэкапы БД|"Настроить ежедневные бэкапы БД с offsite-копией"]] | ⭐ | "Self-hosted Infra" | S |
-| DV-011 | [[DV-011 Развернуть MiroTalk SFU|"Развернуть MiroTalk SFU на meet.re-search.wiki"]] | 🔥 | "Calls & Transcription" | M |
-| DV-012 | [[DV-012 Настроить coturn (TURN STUN)|"Настроить coturn (TURN/STUN сервер)"]] | ⭐ | "Conferencing" | M |
-| DV-013 | [[DV-013 Заменить Jitsi на MiroTalk в UI комнат|"Заменить Jitsi на MiroTalk в UI комнат сайта"]] | ⭐ | "Conferencing" | S |
 | DV-014 | [[DV-014 Развернуть Meetily|"Развернуть Meetily для транскрипции (CPU MVP)"]] | • | "Conferencing" | M |
 | DV-015 | [[DV-015 Воркфлоу запись комнаты → транскрипт → черновик синтеза|"Воркфлоу: запись комнаты → транскрипт → черновик синтеза"]] | • | "Conferencing" | L |
 | DV-016 | [[DV-016 Рефакторинг главной под 4 сценария|"Рефакторинг главной страницы под 4 сценария входа"]] | ⭐ | "Site UX MVP" | M |
