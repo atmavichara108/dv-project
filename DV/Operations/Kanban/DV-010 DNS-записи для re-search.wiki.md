@@ -18,7 +18,6 @@ depends_on:
 due: 2026-06-10
 ---
 
-
 ## Goal
 Настроить Advanced DNS в Namecheap.
 
