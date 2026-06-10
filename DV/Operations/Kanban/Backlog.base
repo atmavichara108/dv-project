@@ -51,7 +51,6 @@ views:
           - DV/Operations/Kanban/DV-003 Настроить opencode.json.md
       note.status:
         ready:
-          - DV/Operations/Kanban/DV-009 Бэкапы БД.md
           - DV/Operations/Kanban/DV-011 Развернуть MiroTalk SFU.md
           - DV/Operations/Kanban/DV-013 Заменить Jitsi на MiroTalk в UI комнат.md
           - DV/Operations/Kanban/DV-012 Настроить coturn (TURN STUN).md
@@ -72,8 +71,8 @@ views:
           - DV/Operations/Kanban/DV-027 Nginx + Let's Encrypt для всех трёх доменов.md
           - DV/Operations/Kanban/DV-029 Infra Runbook.md
         doing:
-          - DV/Operations/Kanban/DV-008 Деплой dv-hub на VPS (Node adapter + PM2).md
           - DV/Operations/Kanban/DV-007 Мигрировать БД с D1.md
+          - DV/Operations/Kanban/DV-009 Бэкапы БД.md
         done:
           - DV/Operations/Kanban/DV-010 DNS-записи для re-search.wiki.md
           - DV/Operations/Kanban/DV-001 Создать product-vision и архитектурные документы.md
