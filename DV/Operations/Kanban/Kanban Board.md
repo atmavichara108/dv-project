@@ -5,14 +5,13 @@ date: 2026-06-10
 
 # Kanban Board
 
-> Последнее обновление: 2026-06-10 15:20
+> Последнее обновление: 2026-06-20 00:00
 
-## 🔵 Doing (3)
+## 🔵 Doing (2)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |-----|--------|-----------|------|-------|
 | DV-009 | [[DV-009 Бэкапы БД|Настроить ежедневные бэкапы БД с offsite-копией]] | ⭐ | Self-hosted Infra | S |
-| DV-011 | [[DV-011 Развернуть MiroTalk SFU|Развернуть MiroTalk SFU на meet.re-search.wiki]] | 🔥 | Calls & Transcription | M |
 | DV-013 | [[DV-013 Заменить Jitsi на MiroTalk в UI комнат|Заменить Jitsi на MiroTalk в UI комнат сайта]] | ⭐ | Conferencing | S |
 
 ## 🟠 Ready (1)
@@ -40,7 +39,7 @@ date: 2026-06-10
 | DV-026 | [[DV-026 Resend верификация домена для magic-link|"Resend: верифицировать re-search.wiki для magic-link email"]] | ⭐ | "Self-hosted Infra" | XS |
 | DV-029 | [[DV-029 Infra Runbook|"Создать docs/infra-runbook.md — операционный мануал по инфре"]] | ⭐ | "Self-hosted Infra" | S |
 
-## 🟢 Done (11)
+## 🟢 Done (12)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |-----|--------|-----------|------|-------|
@@ -55,3 +54,4 @@ date: 2026-06-10
 | DV-008 | [[DV-008 Деплой dv-hub на VPS (Node adapter + PM2)|"Деплой dv-hub: Hono Node adapter + PM2"]] | 🔥 | Self-hosted Infra | M |
 | DV-010 | [[DV-010 DNS-записи для re-search.wiki|"DNS A-записи: @, www, meet → IP сервера"]] | 🔥 | Self-hosted Infra | XS |
 | DV-027 | [[DV-027 Nginx + Let's Encrypt для всех трёх доменов|Nginx reverse proxy + SSL для re-search.wiki, www, meet]] | 🔥 | Self-hosted Infra | S |
+| DV-011 | [[DV-011 Развернуть MiroTalk SFU|"Развернуть MiroTalk SFU на meet.re-search.wiki"]] | 🔥 | Calls & Transcription | M |

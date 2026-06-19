@@ -2,7 +2,7 @@
 type: task
 id: DV-011
 title: Развернуть MiroTalk SFU на meet.re-search.wiki
-status: doing
+status: done
 priority: P0
 effort: M
 epic: Calls & Transcription
