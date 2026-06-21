@@ -1,11 +1,11 @@
 ---
 title: Kanban Board
-date: 2026-06-10
+date: 2026-06-21
 ---
 
 # Kanban Board
 
-> Последнее обновление: 2026-06-20 00:00
+> Последнее обновление: 2026-06-21 16:36
 
 ## 🔵 Doing (2)
 
@@ -53,5 +53,5 @@ date: 2026-06-10
 | DV-007 | [[DV-007 Мигрировать БД с D1|"Мигрировать БД: Cloudflare D1 → SQLite-файл или Postgres"]] | 🔥 | Self-hosted Infra | L |
 | DV-008 | [[DV-008 Деплой dv-hub на VPS (Node adapter + PM2)|"Деплой dv-hub: Hono Node adapter + PM2"]] | 🔥 | Self-hosted Infra | M |
 | DV-010 | [[DV-010 DNS-записи для re-search.wiki|"DNS A-записи: @, www, meet → IP сервера"]] | 🔥 | Self-hosted Infra | XS |
+| DV-011 | [[DV-011 Развернуть MiroTalk SFU|Развернуть MiroTalk SFU на meet.re-search.wiki]] | 🔥 | Calls & Transcription | M |
 | DV-027 | [[DV-027 Nginx + Let's Encrypt для всех трёх доменов|Nginx reverse proxy + SSL для re-search.wiki, www, meet]] | 🔥 | Self-hosted Infra | S |
-| DV-011 | [[DV-011 Развернуть MiroTalk SFU|"Развернуть MiroTalk SFU на meet.re-search.wiki"]] | 🔥 | Calls & Transcription | M |

@@ -15,7 +15,7 @@ tags:
 depends_on:
   - DV-005
   - DV-006
-due: 2026-06-10
+due: 2026-06-21
 ---
 
 ## Goal
@@ -30,3 +30,4 @@ due: 2026-06-10
 
 ## Notes
 - Записи для Resend (SPF/DKIM/DMARC) — в отдельной задаче DV-026
+
