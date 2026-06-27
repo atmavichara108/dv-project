@@ -17,10 +17,12 @@ tags: [auth, refactor]
 Сейчас 6 ролей, реально нужны 4. Лишняя сложность создаёт трение в онбординге и в коде проверок.
 
 ## Definition of Done
-- [ ] Миграция БД: значения `researcher`, `expert`, `moderator` → `member`
-- [ ] В коде middleware и UI остались только admin/member/guest
-- [ ] Документ `docs/roles.md` описывает что может каждая роль
-- [ ] Страница профиля показывает корректную роль
+- [x] Миграция БД: значения `researcher`, `expert`, `moderator` → `member` (и `moderator → admin`)
+- [x] В коде middleware и UI остались только admin/member/guest
+- [ ] Документ `docs/roles.md` описывает что может каждая роль (этот пункт не делаем — роли уже описаны в glossary.md)
+- [x] Страница профиля показывает корректную роль
+
+Спек: [[DV/Operations/Specs/DV-019-spec.md]]
 
 ## Зависимости
 - Блокирует: [[DV-017 FAQ-копирайт]]
