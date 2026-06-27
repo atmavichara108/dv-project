@@ -1,3 +1,10 @@
+---
+type: Cell Map
+title: Сеть ячеек ДВ
+description: ""
+tags: []
+timestamp: 2026-06-27
+---
 # Сеть ячеек ДВ
 
 ## Принцип

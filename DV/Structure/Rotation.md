@@ -1,3 +1,10 @@
+---
+type: Protocol
+title: Ротация ролей
+description: ""
+tags: []
+timestamp: 2026-06-27
+---
 # Ротация ролей
 
 ## Зачем

@@ -1,3 +1,10 @@
+---
+type: Protocol
+title: Consent — принятие решений
+description: ""
+tags: []
+timestamp: 2026-06-27
+---
 # Consent — принятие решений
 
 ## Что это

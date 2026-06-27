@@ -1,3 +1,10 @@
+---
+type: Lifecycle Phase
+title: Жизненный цикл ячейки
+description: ""
+tags: []
+timestamp: 2026-06-27
+---
 # Жизненный цикл ячейки
 
 ## Фазы

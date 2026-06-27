@@ -1,3 +1,10 @@
+---
+type: Role Definition
+title: Роли в ячейке ДВ
+description: ""
+tags: []
+timestamp: 2026-06-27
+---
 # Роли в ячейке ДВ
 
 ## Философия ролей

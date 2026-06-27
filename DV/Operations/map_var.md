@@ -1,3 +1,10 @@
+---
+type: Reference
+title: map_var
+description: ""
+tags: []
+timestamp: 2026-06-27
+---
 
 status: 
 * backlog — всё, что когда‑нибудь сделаем. Не разобрано, не приоритезировано детально.
