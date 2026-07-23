@@ -1,18 +1,11 @@
 ---
 title: Kanban Board
-date: 2026-06-21
+date: 2026-07-23
 ---
 
 # Kanban Board
 
-> Последнее обновление: 2026-06-21 16:36
-
-## 🔵 Doing (2)
-
-| ID | Задача | Приоритет | Эпик | Объём |
-|-----|--------|-----------|------|-------|
-| DV-009 | [[DV-009 Бэкапы БД|Настроить ежедневные бэкапы БД с offsite-копией]] | ⭐ | Self-hosted Infra | S |
-| DV-013 | [[DV-013 Заменить Jitsi на MiroTalk в UI комнат|Заменить Jitsi на MiroTalk в UI комнат сайта]] | ⭐ | Conferencing | S |
+> Последнее обновление: 2026-07-23 12:00
 
 ## 🟠 Ready (1)
 
@@ -20,7 +13,7 @@ date: 2026-06-21
 |-----|--------|-----------|------|-------|
 | DV-012 | [[DV-012 Настроить coturn (TURN STUN)|Настроить coturn (TURN/STUN сервер)]] | ⭐ | Conferencing | M |
 
-## ⚪ Backlog (14)
+## ⚪ Backlog (12)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |-----|--------|-----------|------|-------|
@@ -29,7 +22,6 @@ date: 2026-06-21
 | DV-016 | [[DV-016 Рефакторинг главной под 4 сценария|"Рефакторинг главной страницы под 4 сценария входа"]] | ⭐ | "Site UX MVP" | M |
 | DV-017 | [[DV-017 FAQ-копирайт|"Переписать FAQ под актуальный self-host стек"]] | • | "Site UX MVP" | XS |
 | DV-018 | [[DV-018 Адаптивная вёрстка|"Адаптивная вёрстка под мобильные устройства"]] | • | "Site UX MVP" | M |
-| DV-019 | [[DV-019 Урезать роли до admin, member, guest|"Урезать ролевую модель до admin/member/guest"]] | ⭐ | "Roles & Auth" | S |
 | DV-020 | [[DV-020 Telegram Login Widget|"Решить судьбу Telegram Login Widget"]] | • | "Roles & Auth" | S |
 | DV-021 | [[DV-021 Стадии темы как машина состояний|"Стадии темы как машина состояний в БД"]] | ⭐ | "Research Workflow" | M |
 | DV-022 | [[DV-022 Страница темы с привязанными материалами и комнатами|"Страница темы: материалы, комнаты, синтез на одном экране"]] | ⭐ | "Research Workflow" | M |
@@ -37,9 +29,8 @@ date: 2026-06-21
 | DV-024 | [[DV-024 Интегрировать open_deep_research|"Интегрировать open_deep_research как опцию роли researcher"]] | · | "Phase 2" | XL |
 | DV-025 | [[DV-025 Twake Drive для тяжёлых медиа|"Twake Drive для тяжёлых медиа (видео, PDF)"]] | · | "Phase 2" | L |
 | DV-026 | [[DV-026 Resend верификация домена для magic-link|"Resend: верифицировать re-search.wiki для magic-link email"]] | ⭐ | "Self-hosted Infra" | XS |
-| DV-029 | [[DV-029 Infra Runbook|"Создать docs/infra-runbook.md — операционный мануал по инфре"]] | ⭐ | "Self-hosted Infra" | S |
 
-## 🟢 Done (12)
+## 🟢 Done (16)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |-----|--------|-----------|------|-------|
@@ -52,6 +43,10 @@ date: 2026-06-21
 | DV-006a | [[DV-006a Базовая настройка сервера (hardening + пакеты)|"Базовая настройка сервера: SSH ключи, ufw, пакеты"]] | 🔥 | Self-hosted Infra | S |
 | DV-007 | [[DV-007 Мигрировать БД с D1|"Мигрировать БД: Cloudflare D1 → SQLite-файл или Postgres"]] | 🔥 | Self-hosted Infra | L |
 | DV-008 | [[DV-008 Деплой dv-hub на VPS (Node adapter + PM2)|"Деплой dv-hub: Hono Node adapter + PM2"]] | 🔥 | Self-hosted Infra | M |
+| DV-009 | [[DV-009 Бэкапы БД|Настроить ежедневные бэкапы БД с offsite-копией]] | ⭐ | Self-hosted Infra | S |
 | DV-010 | [[DV-010 DNS-записи для re-search.wiki|"DNS A-записи: @, www, meet → IP сервера"]] | 🔥 | Self-hosted Infra | XS |
 | DV-011 | [[DV-011 Развернуть MiroTalk SFU|Развернуть MiroTalk SFU на meet.re-search.wiki]] | 🔥 | Calls & Transcription | M |
+| DV-013 | [[DV-013 Заменить Jitsi на MiroTalk в UI комнат|Заменить Jitsi на MiroTalk в UI комнат сайта]] | ⭐ | Conferencing | S |
+| DV-019 | [[DV-019 Урезать роли до admin, member, guest|"Урезать ролевую модель до admin/member/guest"]] | ⭐ | "Roles & Auth" | S |
 | DV-027 | [[DV-027 Nginx + Let's Encrypt для всех трёх доменов|Nginx reverse proxy + SSL для re-search.wiki, www, meet]] | 🔥 | Self-hosted Infra | S |
+| DV-029 | [[DV-029 Infra Runbook|"Создать docs/infra-runbook.md — операционный мануал по инфре"]] | ⭐ | "Self-hosted Infra" | S |
