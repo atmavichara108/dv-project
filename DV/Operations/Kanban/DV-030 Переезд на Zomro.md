@@ -2,22 +2,23 @@
 type: task
 id: DV-030
 title: "Переезд ДВ-Хаб на Zomro (ADR-010)"
-status: ready
+status: in_progress
 priority: P0
 effort: L
 epic: "Self-hosted Infra"
 assignee: dv-hub-dev-department
 created: 2026-11-01
-tags: [infra, migration, zomro, adr-010, p0]
+updated: 2026-11-06
+tags: [infra, migration, zomro, adr-010, p0, in_progress]
 depends_on: []
 ---
 
 ## Goal
 
-Перенести хостинг проекта ДВ-Хаб с Fornex на Zomro (Cloud VPS, Germany) без
-потери данных, без простоя дольше TTL DNS и с сохранением текущего стека
-(Node/PM2/Nginx/certbot). Старт — тариф Optimal AMD (2 vCPU / 5 GB RAM / 35 GB
-NVMe / 2 TB трафика, €11.95/мес). Фиксируется как отдельная задача, потому что
+Перенести хостинг проекта ДВ-Хаб с Fornex на Zomro (Cloud VPS,
+**Netherlands-3**) без потери данных, без простоя дольше TTL DNS и с
+сохранением текущего стека (Node/PM2/Nginx/certbot). Старт — тариф Optimal AMD
+(2 vCPU / 5 GB RAM / 35 GB NVMe / 2 TB трафика, €11.95/мес). Фиксируется как отдельная задача, потому что
 переезд затрагивает инфраструктуру трёх доменов (re-search.wiki, www, meet),
 MiroTalk (UDP 40000-40100) и бэкапы.
 
@@ -49,6 +50,20 @@ MiroTalk (UDP 40000-40100) и бэкапы.
 - В `docs/infra-runbook.md` §1 и `scripts/vps-env.sh` зафиксирован новый IP;
   старый IP выведен в legacy-блок или удалён после подтверждения.
 - Все команды §9 проверены на живом сервере (не только на бумаге).
+
+## Live status (обновлено 2026-11-06)
+
+- Сервер создан: Zomro NL-3, IP `188.137.182.91`, Ubuntu 24.04, hostname `dv-hub.host`.
+- DNS переключён полностью: `re-search.wiki`, `www`, `meet` → новый IP.
+- HTTPS отвечает 200 на всех трёх доменах.
+- Идёт 48-часовое наблюдение (`scripts/migration-watch.sh`, cron `*/30`).
+- Fornex пока не гасим: старые A-записи уже сняты, но хост остаётся резервом до чистого срока.
+
+## Заблокировано / требует владельца
+
+- Offsite-бэкап: нет Tailscale на приёмной машине; нужен выбор транспорта владельцем.
+- Бэкап старого Fornex: доступ к старому серверу утерян, снять `.env`/БД оттуда нельзя.
+- Гашение Fornex — ручное действие владельца в панели, только после чистых 48 часов и осознанного вердикта о старом бэкапе.
 
 ## Notes
 
