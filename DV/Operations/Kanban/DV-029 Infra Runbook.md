@@ -3,6 +3,9 @@ type: task
 id: DV-029
 title: "Создать docs/infra-runbook.md — операционный мануал по инфре"
 status: done
+priority: P1
+effort: S
+epic: "Self-hosted Infra"
 ---
 
 ## Goal
