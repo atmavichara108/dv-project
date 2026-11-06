@@ -1,12 +1,12 @@
 ---
 title: Kanban Board
-date: 2026-11-06
+date: 2026-11-07
 generated-by: scripts/rebuild-kanban.sh (single source of truth — карточки DV-*.md)
 ---
 
 # Kanban Board
 
-> Авто-пересборка: 2026-11-06 23:56. Не редактировать доску вручную —
+> Авто-пересборка: 2026-11-07 00:00. Не редактировать доску вручную —
 > доска строится из статусов карточек. Правь status в карточке.
 
 Правило доски: стартовала — сразу 🟡 In Progress; выполнена — сразу 🟢 Done.
@@ -43,7 +43,7 @@ generated-by: scripts/rebuild-kanban.sh (single source of truth — карточ
 | DV-025 | [[DV-025 Twake Drive для тяжёлых медиа|Twake Drive для тяжёлых медиа (видео, PDF)]] | · | Phase 2 | L |
 | DV-026 | [[DV-026 Resend верификация домена для magic-link|Resend: верифицировать re-search.wiki для magic-link email]] | ⭐ | Self-hosted Infra | XS |
 
-## 🟢 Done (28)
+## 🟢 Done (27)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |---|---|---|---|---|
@@ -64,7 +64,6 @@ generated-by: scripts/rebuild-kanban.sh (single source of truth — карточ
 | DV-020 | [[DV-020 Telegram Login Widget|Решить судьбу Telegram Login Widget]] | • | Roles & Auth | S |
 | DV-027 | [[DV-027 Nginx + Let's Encrypt для всех трёх доменов|Nginx reverse proxy + SSL для re-search.wiki, www, meet]] | 🔥 | Self-hosted Infra | S |
 | DV-029 | [[DV-029 Infra Runbook|Создать docs/infra-runbook.md — операционный мануал по инфре]] | ⭐ | Self-hosted Infra | S |
-| DV-031 | [[DV-031 Внутрихабовая почта Корабля|Внутрихабовая почта Корабля (ship-mail) — пилот]] | ⭐ | Ship Mail | M |
 | DV-031 | [[DV-031 Внутрихабовая почта Корабля (ship-mail)|Внутрихабовая почта Корабля (ship-mail) — пилот]] | ⭐ | Ship Mail | M |
 | DV-032 | [[DV-032 Тесты и CI канона писем|ship-mail: тесты под канон писем + CI-материализация (PR #3)]] | ⭐ | Ship Mail | S |
 | DV-033 | [[DV-033 Деплой MiroTalk 2.7.65|Деплой MiroTalk 2.7.65: фикс скрипта (PR #4)]] | 🔥 | Conferencing | M |
