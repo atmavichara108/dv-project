@@ -2,7 +2,7 @@
 type: task
 id: DV-013
 title: Заменить Jitsi на MiroTalk в UI комнат сайта
-status: doing
+status: done
 priority: P1
 effort: S
 epic: Conferencing

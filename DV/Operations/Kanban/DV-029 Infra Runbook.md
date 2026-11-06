@@ -2,14 +2,7 @@
 type: task
 id: DV-029
 title: "Создать docs/infra-runbook.md — операционный мануал по инфре"
-status: backlog
-priority: P1
-effort: S
-epic: "Self-hosted Infra"
-assignee: max
-created: 2026-05-11
-tags: [docs, infra, p1]
-depends_on: [DV-027]
+status: done
 ---
 
 ## Goal

@@ -2,10 +2,7 @@
 type: task
 id: DV-019
 title: "Урезать ролевую модель до admin/member/guest"
-status: backlog
-priority: P1
-effort: S
-epic: "Roles & Auth"
+status: done
 sprint: 
 assignee: max
 created: 2026-05-10
