@@ -43,6 +43,7 @@ views:
         - ready
         - doing
         - done
+        - in_progress
     cardOrders:
       file.file:
         DV/Operations/Kanban/DV-002 Подключить dv-project как git submodule.md: []
