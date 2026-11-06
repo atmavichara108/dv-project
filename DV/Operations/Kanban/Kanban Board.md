@@ -6,23 +6,26 @@ generated-by: scripts/rebuild-kanban.sh (single source of truth — карточ
 
 # Kanban Board
 
-> Авто-пересборка: 2026-11-06 17:04. Не редактировать доску вручную —
+> Авто-пересборка: 2026-11-06 23:56. Не редактировать доску вручную —
 > доска строится из статусов карточек. Правь status в карточке.
 
 Правило доски: стартовала — сразу 🟡 In Progress; выполнена — сразу 🟢 Done.
 Источник правды — status в DV-*.md; доска — производная (rebuild-kanban.sh).
 
-## 🟡 In Progress (1)
+## 🟡 In Progress (2)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |---|---|---|---|---|
 | DV-030 | [[DV-030 Переезд на Zomro|Переезд ДВ-Хаб на Zomro (ADR-010)]] | 🔥 | Self-hosted Infra | L |
+| DV-043 | [[DV-043 Канон связи работа и карточка|Канон: работа в dv-hub обязана иметь карточку в канбане]] | 🔥 | Process | S |
 
-## 🟠 Ready (1)
+## 🟠 Ready (3)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |---|---|---|---|---|
 | DV-012 | [[DV-012 Настроить coturn (TURN STUN)|Настроить coturn (TURN/STUN сервер)]] | ⭐ | Conferencing | M |
+| DV-041 | [[DV-041 Правка deploy-mirotalk на сервере|Правка deploy-mirotalk.sh на сервере (точечный фикс вне репо)]] | • | Conferencing | XS |
+| DV-042 | [[DV-042 Точный PAT для CI dv-project|CI dv-project падает: нужен точечный PAT владельца]] | ⭐ | Self-hosted Infra | XS |
 
 ## ⚪ Backlog (11)
 
@@ -40,7 +43,7 @@ generated-by: scripts/rebuild-kanban.sh (single source of truth — карточ
 | DV-025 | [[DV-025 Twake Drive для тяжёлых медиа|Twake Drive для тяжёлых медиа (видео, PDF)]] | · | Phase 2 | L |
 | DV-026 | [[DV-026 Resend верификация домена для magic-link|Resend: верифицировать re-search.wiki для magic-link email]] | ⭐ | Self-hosted Infra | XS |
 
-## 🟢 Done (17)
+## 🟢 Done (28)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |---|---|---|---|---|
@@ -61,4 +64,15 @@ generated-by: scripts/rebuild-kanban.sh (single source of truth — карточ
 | DV-020 | [[DV-020 Telegram Login Widget|Решить судьбу Telegram Login Widget]] | • | Roles & Auth | S |
 | DV-027 | [[DV-027 Nginx + Let's Encrypt для всех трёх доменов|Nginx reverse proxy + SSL для re-search.wiki, www, meet]] | 🔥 | Self-hosted Infra | S |
 | DV-029 | [[DV-029 Infra Runbook|Создать docs/infra-runbook.md — операционный мануал по инфре]] | ⭐ | Self-hosted Infra | S |
+| DV-031 | [[DV-031 Внутрихабовая почта Корабля|Внутрихабовая почта Корабля (ship-mail) — пилот]] | ⭐ | Ship Mail | M |
+| DV-031 | [[DV-031 Внутрихабовая почта Корабля (ship-mail)|Внутрихабовая почта Корабля (ship-mail) — пилот]] | ⭐ | Ship Mail | M |
+| DV-032 | [[DV-032 Тесты и CI канона писем|ship-mail: тесты под канон писем + CI-материализация (PR #3)]] | ⭐ | Ship Mail | S |
+| DV-033 | [[DV-033 Деплой MiroTalk 2.7.65|Деплой MiroTalk 2.7.65: фикс скрипта (PR #4)]] | 🔥 | Conferencing | M |
+| DV-034 | [[DV-034 Contributor Artifacts зона|Зона Contributor Artifacts для контрибьюторов]] | • | Knowledge Base | XS |
+| DV-035 | [[DV-035 Слой памяти idea-graph|Слой краткосрочной памяти: idea-graph ДВ-Хаб]] | ⭐ | Memory | M |
+| DV-036 | [[DV-036 Транспорт симлинк на канон|Транспорт: копия заменена симлинком на канон]] | ⭐ | Infra Hygiene | XS |
+| DV-037 | [[DV-037 Сторож CI GitHub Actions|Сторож CI: падения фиксируются автоматически]] | ⭐ | Infra Hygiene | S |
+| DV-038 | [[DV-038 Сторож переезда systemd|Сторож переезда: таймеры systemd вместо cron]] | ⭐ | Self-hosted Infra | S |
+| DV-039 | [[DV-039 Offsite-бэкап Tailscale|Offsite-бэкап: труба проверена живым архивом]] | ⭐ | Self-hosted Infra | S |
+| DV-040 | [[DV-040 Агенты и канон цели|Агентский слой: восстановление файлов, шаги, канон цели]] | ⭐ | Agents | S |
 

@@ -1,7 +1,7 @@
 filters:
   and:
     - type == "task"
-    - status == "ready" || status == "doing"
+    - status == "ready" || status == "in_progress"
 views:
   - type: kanban-view
     name: Спринт
@@ -14,19 +14,19 @@ views:
         - DV/Operations/Kanban/DV-002 Подключить dv-project как git submodule.md
       note.status:
         - ready
-        - doing
+        - in_progress
     cardOrders:
       file.file: {}
       note.status:
         ready: []
-        doing:
+        in_progress:
           - DV/Operations/Kanban/DV-006 Купить VPS на Fornex (Germany).md
           - DV/Operations/Kanban/DV-006a Базовая настройка сервера (hardening + пакеты).md
     columnColors:
       file.file: {}
       note.status:
         ready: orange
-        doing: blue
+        in_progress: blue
         done: green
     groupByProperty: note.status
   - type: table

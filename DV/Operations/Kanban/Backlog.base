@@ -41,7 +41,7 @@ views:
       note.status:
         - backlog
         - ready
-        - doing
+        - in_progress
         - done
         - in_progress
     cardOrders:
@@ -69,7 +69,7 @@ views:
           - DV/Operations/Kanban/DV-026 Resend верификация домена для magic-link.md
           - DV/Operations/Kanban/DV-027 Nginx + Let's Encrypt для всех трёх доменов.md
           - DV/Operations/Kanban/DV-029 Infra Runbook.md
-        doing:
+        in_progress:
           - DV/Operations/Kanban/DV-007 Мигрировать БД с D1.md
           - DV/Operations/Kanban/DV-009 Бэкапы БД.md
           - DV/Operations/Kanban/DV-013 Заменить Jitsi на MiroTalk в UI комнат.md
@@ -89,7 +89,7 @@ views:
       note.status:
         backlog: red
         ready: purple
-        doing: blue
+        in_progress: blue
         done: green
     groupByProperty: note.status
   - type: table
