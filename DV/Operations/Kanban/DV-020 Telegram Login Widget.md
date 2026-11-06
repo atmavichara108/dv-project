@@ -2,7 +2,7 @@
 type: task
 id: DV-020
 title: "Решить судьбу Telegram Login Widget"
-status: backlog
+status: done
 priority: P2
 effort: S
 epic: "Roles & Auth"
