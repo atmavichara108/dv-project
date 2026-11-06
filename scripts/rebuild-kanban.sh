@@ -76,7 +76,10 @@ for f in "${FILES[@]}"; do
 
   # Ссылка на карточку: базовый линк по имени файла, короткое имя — в текст.
   base="$(basename "$f" .md)"
-  link="[[$base|$title]]"
+  alias="${title//:/-}"
+  alias="${alias//,/-}"
+  alias="${alias//|/ }"
+  link="[[$base|$alias]]"
 
   ROWS[$status]+="| $id | $link | $(prio_emoji "$prio") | $(epic_clean "$epic") | $effort |"$'\n'
 done
