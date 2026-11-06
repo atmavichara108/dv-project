@@ -1,6 +1,6 @@
 ---
 type: Structure Pattern
-title: Интеграция S3: через практику, не через теорию
+title: "Интеграция S3: через практику, не через теорию"
 description: ""
 tags: []
 timestamp: 2026-06-27

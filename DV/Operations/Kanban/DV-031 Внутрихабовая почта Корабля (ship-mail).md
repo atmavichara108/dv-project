@@ -6,7 +6,7 @@ status: done
 priority: P1
 effort: M
 epic: "Ship Mail"
-sprint بشكل
+sprint:
 assignee: max
 created: 2026-11-06
 due: 
