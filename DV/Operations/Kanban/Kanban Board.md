@@ -6,7 +6,7 @@ generated-by: scripts/rebuild-kanban.sh (single source of truth — карточ
 
 # Kanban Board
 
-> Авто-пересборка: 2026-11-07 00:15. Не редактировать доску вручную —
+> Авто-пересборка: 2026-11-07 00:17. Не редактировать доску вручную —
 > доска строится из статусов карточек. Правь status в карточке.
 
 Правило доски: стартовала — сразу 🟡 In Progress; выполнена — сразу 🟢 Done.
@@ -55,18 +55,18 @@ generated-by: scripts/rebuild-kanban.sh (single source of truth — карточ
 | DV-006a | [[DV-006a Базовая настройка сервера (hardening + пакеты)|Базовая настройка сервера- SSH ключи- ufw- пакеты]] | 🔥 | Self-hosted Infra | S |
 | DV-006 | [[DV-006 Купить VPS на Fornex (Germany)|Купить VPS на Fornex (Germany)]] | 🔥 | Self-hosted Infra | XS |
 | DV-007 | [[DV-007 Мигрировать БД с D1|Мигрировать БД- Cloudflare D1 → SQLite-файл или Postgres]] | 🔥 | Self-hosted Infra | L |
-| DV-008 | [[DV-008 Деплой dv-hub на VPS (Node adapter + PM2)|Деплой dv-hub- Hono Node adapter + PM2]] | 🔥 | Self-hosted Infra | M |
+| DV-008 | [[DV-008 Деплой dv-hub на VPS (Node adapter + PM2)|Деплой dv-hub- Hono Node adapter - PM2]] | 🔥 | Self-hosted Infra | M |
 | DV-009 | [[DV-009 Бэкапы БД|Настроить ежедневные бэкапы БД с offsite-копией]] | ⭐ | Self-hosted Infra | S |
 | DV-010 | [[DV-010 DNS-записи для re-search.wiki|DNS A-записи- @- www- meet → IP сервера]] | 🔥 | Self-hosted Infra | XS |
 | DV-011 | [[DV-011 Развернуть MiroTalk SFU|Развернуть MiroTalk SFU на meet.re-search.wiki]] | 🔥 | Calls & Transcription | M |
 | DV-013 | [[DV-013 Заменить Jitsi на MiroTalk в UI комнат|Заменить Jitsi на MiroTalk в UI комнат сайта]] | ⭐ | Conferencing | S |
 | DV-019 | [[DV-019 Урезать роли до admin, member, guest|Урезать ролевую модель до admin/member/guest]] | ⭐ | Roles & Auth | S |
 | DV-020 | [[DV-020 Telegram Login Widget|Решить судьбу Telegram Login Widget]] | • | Roles & Auth | S |
-| DV-027 | [[DV-027 Nginx + Let's Encrypt для всех трёх доменов|Nginx reverse proxy + SSL для re-search.wiki- www- meet]] | 🔥 | Self-hosted Infra | S |
+| DV-027 | [[DV-027 Nginx + Let's Encrypt для всех трёх доменов|Nginx reverse proxy - SSL для re-search.wiki- www- meet]] | 🔥 | Self-hosted Infra | S |
 | DV-029 | [[DV-029 Infra Runbook|Создать docs/infra-runbook.md — операционный мануал по инфре]] | ⭐ | Self-hosted Infra | S |
 | DV-031 | [[DV-031 Внутрихабовая почта Корабля (ship-mail)|Внутрихабовая почта Корабля (ship-mail) — пилот]] | ⭐ | Ship Mail | M |
-| DV-032 | [[DV-032 Тесты и CI канона писем|ship-mail- тесты под канон писем + CI-материализация (PR #3)]] | ⭐ | Ship Mail | S |
-| DV-033 | [[DV-033 Деплой MiroTalk 2.7.65|Деплой MiroTalk 2.7.65- фикс скрипта (PR #4)]] | 🔥 | Conferencing | M |
+| DV-032 | [[DV-032 Тесты и CI канона писем|ship-mail- тесты под канон писем - CI-материализация (PR 3)]] | ⭐ | Ship Mail | S |
+| DV-033 | [[DV-033 Деплой MiroTalk 2.7.65|Деплой MiroTalk 2.7.65- фикс скрипта (PR 4)]] | 🔥 | Conferencing | M |
 | DV-034 | [[DV-034 Contributor Artifacts зона|Зона Contributor Artifacts для контрибьюторов]] | • | Knowledge Base | XS |
 | DV-035 | [[DV-035 Слой памяти idea-graph|Слой краткосрочной памяти- idea-graph ДВ-Хаб]] | ⭐ | Memory | M |
 | DV-036 | [[DV-036 Транспорт симлинк на канон|Транспорт- копия заменена симлинком на канон]] | ⭐ | Infra Hygiene | XS |

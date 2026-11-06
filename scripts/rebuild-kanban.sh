@@ -79,6 +79,8 @@ for f in "${FILES[@]}"; do
   alias="${title//:/-}"
   alias="${alias//,/-}"
   alias="${alias//|/ }"
+  alias="${alias//\#/}"
+  alias="${alias//+/-}"
   link="[[$base|$alias]]"
 
   ROWS[$status]+="| $id | $link | $(prio_emoji "$prio") | $(epic_clean "$epic") | $effort |"$'\n'
