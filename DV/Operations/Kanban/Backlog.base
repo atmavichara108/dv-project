@@ -59,7 +59,7 @@ views:
           - DV/Operations/Kanban/DV-016 Рефакторинг главной под 4 сценария.md
           - DV/Operations/Kanban/DV-017 FAQ-копирайт.md
           - DV/Operations/Kanban/DV-018 Адаптивная вёрстка.md
-          - DV/Operations/Kanban/DV-019 Урезать роли до admin, member, guest.md
+          - DV/Operations/Kanban/DV-019 Урезать роли до admin member guest.md
           - DV/Operations/Kanban/DV-020 Telegram Login Widget.md
           - DV/Operations/Kanban/DV-021 Стадии темы как машина состояний.md
           - DV/Operations/Kanban/DV-022 Страница темы с привязанными материалами и комнатами.md

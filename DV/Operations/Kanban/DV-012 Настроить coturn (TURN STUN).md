@@ -1,7 +1,7 @@
 ---
 type: task
 id: DV-012
-title: Настроить coturn (TURN/STUN сервер)
+title: "Настроить coturn (TURN/STUN сервер)"
 status: ready
 priority: P1
 effort: M

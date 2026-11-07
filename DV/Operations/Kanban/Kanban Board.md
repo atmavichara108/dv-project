@@ -6,7 +6,7 @@ generated-by: scripts/rebuild-kanban.sh (single source of truth — карточ
 
 # Kanban Board
 
-> Авто-пересборка: 2026-11-07 00:18. Не редактировать доску вручную —
+> Авто-пересборка: 2026-11-07 09:44. Не редактировать доску вручную —
 > доска строится из статусов карточек. Правь status в карточке.
 
 Правило доски: стартовала — сразу 🟡 In Progress; выполнена — сразу 🟢 Done.
@@ -60,7 +60,7 @@ generated-by: scripts/rebuild-kanban.sh (single source of truth — карточ
 | DV-010 | [[DV-010 DNS-записи для re-search.wiki|DNS A-записи- @- www- meet → IP сервера]] | 🔥 | Self-hosted Infra | XS |
 | DV-011 | [[DV-011 Развернуть MiroTalk SFU|Развернуть MiroTalk SFU на meet.re-search.wiki]] | 🔥 | Calls & Transcription | M |
 | DV-013 | [[DV-013 Заменить Jitsi на MiroTalk в UI комнат|Заменить Jitsi на MiroTalk в UI комнат сайта]] | ⭐ | Conferencing | S |
-| DV-019 | [[DV-019 Урезать роли до admin, member, guest|Урезать ролевую модель до admin/member/guest]] | ⭐ | Roles & Auth | S |
+| DV-019 | [[DV-019 Урезать роли до admin member guest|Урезать роли до admin/member/guest]] | ⭐ | Roles & Auth | S |
 | DV-020 | [[DV-020 Telegram Login Widget|Решить судьбу Telegram Login Widget]] | • | Roles & Auth | S |
 | DV-027 | [[DV-027 Nginx + Let's Encrypt для всех трёх доменов|Nginx reverse proxy - SSL для re-search.wiki- www- meet]] | 🔥 | Self-hosted Infra | S |
 | DV-029 | [[DV-029 Infra Runbook|Создать docs/infra-runbook.md — операционный мануал по инфре]] | ⭐ | Self-hosted Infra | S |

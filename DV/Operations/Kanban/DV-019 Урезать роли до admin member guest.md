@@ -1,7 +1,7 @@
 ---
 type: task
 id: DV-019
-title: "Урезать ролевую модель до admin/member/guest"
+title: "Урезать роли до admin/member/guest"
 status: done
 priority: P1
 effort: S
