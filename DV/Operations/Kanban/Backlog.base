@@ -52,7 +52,7 @@ views:
           - DV/Operations/Kanban/DV-003 Настроить opencode.json.md
       note.status:
         ready:
-          - DV/Operations/Kanban/DV-012 Настроить coturn (TURN STUN).md
+          - DV/Operations/Kanban/DV-012 Настроить coturn TURN STUN сервер.md
         backlog:
           - DV/Operations/Kanban/DV-014 Развернуть Meetily.md
           - DV/Operations/Kanban/DV-015 Воркфлоу запись комнаты → транскрипт → черновик синтеза.md
