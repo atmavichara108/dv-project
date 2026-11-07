@@ -6,7 +6,7 @@ generated-by: scripts/rebuild-kanban.sh (single source of truth — карточ
 
 # Kanban Board
 
-> Авто-пересборка: 2026-11-07 13:19. Не редактировать доску вручную —
+> Авто-пересборка: 2026-11-07 13:23. Не редактировать доску вручную —
 > доска строится из статусов карточек. Правь status в карточке.
 
 Правило доски: стартовала — сразу 🟡 In Progress; выполнена — сразу 🟢 Done.
@@ -28,7 +28,7 @@ generated-by: scripts/rebuild-kanban.sh (single source of truth — карточ
 | DV-041 | [[DV-041 Правка deploy-mirotalk на сервере|Правка deploy-mirotalk.sh на сервере -точечный фикс вне репо-]] | • | Conferencing | XS |
 | DV-042 | [[DV-042 Точный PAT для CI dv-project|CI dv-project падает- нужен точечный PAT владельца]] | ⭐ | Self-hosted Infra | XS |
 
-## ⚪ Backlog (11)
+## ⚪ Backlog (12)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |---|---|---|---|---|
@@ -43,6 +43,7 @@ generated-by: scripts/rebuild-kanban.sh (single source of truth — карточ
 | DV-024 | [[DV-024 Интегрировать open_deep_research|Интегрировать open_deep_research как опцию роли researcher]] | · | Phase 2 | XL |
 | DV-025 | [[DV-025 Twake Drive для тяжёлых медиа|Twake Drive для тяжёлых медиа -видео- PDF-]] | · | Phase 2 | L |
 | DV-026 | [[DV-026 Resend верификация домена для magic-link|Resend- верифицировать re-search.wiki для magic-link email]] | ⭐ | Self-hosted Infra | XS |
+| DV-045 | [[DV-045 Багфиксы MiroTalk по встрече 06.11|Багфиксы MiroTalk по итогам встречи 06.11]] | ⭐ | Conferencing | M |
 
 ## 🟢 Done (27)
 
