@@ -1,22 +1,21 @@
 ---
 title: Kanban Board
-date: 2026-11-07
+date: 2026-11-11
 generated-by: scripts/rebuild-kanban.sh (single source of truth — карточки DV-*.md)
 ---
 
 # Kanban Board
 
-> Авто-пересборка: 2026-11-07 13:56. Не редактировать доску вручную —
+> Авто-пересборка: 2026-11-11 16:13. Не редактировать доску вручную —
 > доска строится из статусов карточек. Правь status в карточке.
 
 Правило доски: стартовала — сразу 🟡 In Progress; выполнена — сразу 🟢 Done.
 Источник правды — status в DV-*.md; доска — производная (rebuild-kanban.sh).
 
-## 🟡 In Progress (3)
+## 🟡 In Progress (2)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |---|---|---|---|---|
-| DV-030 | [[DV-030 Переезд на Zomro|Переезд ДВ-Хаб на Zomro -ADR-010-]] | 🔥 | Self-hosted Infra | L |
 | DV-043 | [[DV-043 Канон связи работа и карточка|Канон- работа в dv-hub обязана иметь карточку в канбане]] | 🔥 | Process | S |
 | DV-044 | [[DV-044 Подключение NotebookLM|Подключение NotebookLM- пакет источников и кабинет]] | ⭐ | Knowledge Base | S |
 
@@ -45,7 +44,7 @@ generated-by: scripts/rebuild-kanban.sh (single source of truth — карточ
 | DV-026 | [[DV-026 Resend верификация домена для magic-link|Resend- верифицировать re-search.wiki для magic-link email]] | ⭐ | Self-hosted Infra | XS |
 | DV-045 | [[DV-045 Багфиксы MiroTalk по встрече 06.11|Багфиксы MiroTalk по итогам встречи 06.11]] | ⭐ | Conferencing | M |
 
-## 🟢 Done (28)
+## 🟢 Done (29)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |---|---|---|---|---|
@@ -66,6 +65,7 @@ generated-by: scripts/rebuild-kanban.sh (single source of truth — карточ
 | DV-020 | [[DV-020 Telegram Login Widget|Решить судьбу Telegram Login Widget]] | • | Roles & Auth | S |
 | DV-027 | [[DV-027 Nginx + Let's Encrypt для всех трёх доменов|Nginx reverse proxy - SSL для re-search.wiki- www- meet]] | 🔥 | Self-hosted Infra | S |
 | DV-029 | [[DV-029 Infra Runbook|Создать docs-infra-runbook.md — операционный мануал по инфре]] | ⭐ | Self-hosted Infra | S |
+| DV-030 | [[DV-030 Переезд на Zomro|Переезд ДВ-Хаб на Zomro -ADR-010-]] | 🔥 | Self-hosted Infra | L |
 | DV-031 | [[DV-031 Внутрихабовая почта Корабля (ship-mail)|Внутрихабовая почта Корабля -ship-mail- — пилот]] | ⭐ | Ship Mail | M |
 | DV-032 | [[DV-032 Тесты и CI канона писем|ship-mail- тесты под канон писем - CI-материализация -PR 3-]] | ⭐ | Ship Mail | S |
 | DV-033 | [[DV-033 Деплой MiroTalk 2.7.65|Деплой MiroTalk 2.7.65- фикс скрипта -PR 4-]] | 🔥 | Conferencing | M |
