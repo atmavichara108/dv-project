@@ -1,22 +1,21 @@
 ---
 title: Kanban Board
-date: 2026-11-11
+date: 2026-11-12
 generated-by: scripts/rebuild-kanban.sh (single source of truth — карточки DV-*.md)
 ---
 
 # Kanban Board
 
-> Авто-пересборка: 2026-11-11 16:40. Не редактировать доску вручную —
+> Авто-пересборка: 2026-11-12 13:06. Не редактировать доску вручную —
 > доска строится из статусов карточек. Правь status в карточке.
 
 Правило доски: стартовала — сразу 🟡 In Progress; выполнена — сразу 🟢 Done.
 Источник правды — status в DV-*.md; доска — производная (rebuild-kanban.sh).
 
-## 🟡 In Progress (2)
+## 🟡 In Progress (1)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |---|---|---|---|---|
-| DV-043 | [[DV-043 Канон связи работа и карточка|Канон- работа в dv-hub обязана иметь карточку в канбане]] | 🔥 | Process | S |
 | DV-044 | [[DV-044 Подключение NotebookLM|Подключение NotebookLM- пакет источников и кабинет]] | ⭐ | Knowledge Base | S |
 
 ## 🟠 Ready (3)
@@ -44,7 +43,7 @@ generated-by: scripts/rebuild-kanban.sh (single source of truth — карточ
 | DV-026 | [[DV-026 Resend верификация домена для magic-link|Resend- верифицировать re-search.wiki для magic-link email]] | ⭐ | Self-hosted Infra | XS |
 | DV-045 | [[DV-045 Багфиксы MiroTalk по встрече 06.11|Багфиксы MiroTalk по итогам встречи 06.11]] | ⭐ | Conferencing | M |
 
-## 🟢 Done (29)
+## 🟢 Done (30)
 
 | ID | Задача | Приоритет | Эпик | Объём |
 |---|---|---|---|---|
@@ -76,5 +75,6 @@ generated-by: scripts/rebuild-kanban.sh (single source of truth — карточ
 | DV-038 | [[DV-038 Сторож переезда systemd|Сторож переезда- таймеры systemd вместо cron]] | ⭐ | Self-hosted Infra | S |
 | DV-039 | [[DV-039 Offsite-бэкап Tailscale|Offsite-бэкап- труба проверена живым архивом]] | ⭐ | Self-hosted Infra | S |
 | DV-040 | [[DV-040 Агенты и канон цели|Агентский слой- восстановление файлов- шаги- канон цели]] | ⭐ | Agents | S |
+| DV-043 | [[DV-043 Канон связи работа и карточка|Канон- работа в dv-hub обязана иметь карточку в канбане]] | 🔥 | Process | S |
 | DV-046 | [[DV-046 Звонок выпадал при взаимодействии с платформой|Звонок выпадал при взаимодействии с платформой -iframe в app-]] | ⭐ | Conferencing | S |
 
